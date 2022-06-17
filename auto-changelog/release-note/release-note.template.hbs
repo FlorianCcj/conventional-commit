@@ -1,0 +1,24 @@
+# Release Note
+
+{{#each releases}}
+## {{title}}
+[{{isoDate}}]
+
+{{#release-note-filter commits}}
+### {{releaseNote.title}}
+
+{{releaseNote.description}}
+{{/release-note-filter}}
+
+{{! use fix(smthing): }}
+{{#commit-list
+  commits
+  heading='### Fixes'
+  message='(fix\()'
+}}
+* {{subject}} ([`{{shorthash}}`]({{href}}))
+{{/commit-list}}
+
+{{/each}}
+
+Meow !

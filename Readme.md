@@ -9,6 +9,10 @@
 
 npm run changelog
 
+## Generate release-note
+
+npm run release-note
+
 ## Todos
 
 - generate demo branch
