@@ -1,0 +1,23 @@
+{
+  "output": "CHANGELOG.md",
+  "template": "auto-changelog/changelog/changelog-template.hbs",
+  "commitLimit": false,
+  "unreleased": true,
+  "replaceText": {
+    "^break\\((.*)\\)": "[$1]",
+    "^ci\\((.*)\\)": "[$1]",
+    "^docs\\((.*)\\): ": "[$1]",
+    "^feat\\((.*)\\)": "[$1]",
+    "^fix\\((.*)\\)": "[$1]",
+    "^refactor\\((.*)\\)": "[$1]",
+    "^style\\((.*)\\)": "[$1]",
+    "^test\\((.*)\\)": "[$1]"
+  },
+  "breaking-pattern": "BREAKING CHANGE:",
+  "sort-commits": "subject",
+  "includeBranch": [
+    "dev",
+    "master",
+    "*"
+  ]
+}
