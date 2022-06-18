@@ -42,7 +42,5 @@ module.exports = function(context, options) {
     return '';
   }
 
-  console.log(list);
-
   return `${options.hash.heading}\n\n${list}`
 };
