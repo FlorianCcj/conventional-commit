@@ -3,13 +3,6 @@
 ## v1.0.0
 [2022-06-18]
 
-### Without Category
-
-* chore(release): 1.0.0 ([`05788b2`](https://github.com/FlorianCcj/conventional-commit/commit/05788b231b6a900bcdeb82eba7d1fcda3f6e58ce))
-
-## v1.1.0
-[2022-06-18]
-
 ### Features
 
 * **breaking change**: add helper to list breaking changes ([`98c6ff3`](https://github.com/FlorianCcj/conventional-commit/commit/98c6ff3ea188cafbd570d54d31bd643c2e47652c))
@@ -20,9 +13,13 @@
 
 * **commitlint**: fix typo in commitlint type ([`67cc228`](https://github.com/FlorianCcj/conventional-commit/commit/67cc2280e9c88fd2d238a7f1f7000cf1d520c524))
 
+### Breaking changes
+
+- Can't use local helpers any more ([`55bc410`](https://github.com/FlorianCcj/conventional-commit/commit/55bc410be26934b6bf9f924bf5ab2efc0bad736c))
+- Use `refacto` instead of `refactor` in commit type ([`67cc228`](https://github.com/FlorianCcj/conventional-commit/commit/67cc2280e9c88fd2d238a7f1f7000cf1d520c524))
+
 ### Without Category
 
-* chore(release): 1.1.0 ([`f8ed3e9`](https://github.com/FlorianCcj/conventional-commit/commit/f8ed3e9aace5058af4a876a6b1a727423bf2b350))
 * refacto(helpers): move handlerbars helpers to centralize them ([`55bc410`](https://github.com/FlorianCcj/conventional-commit/commit/55bc410be26934b6bf9f924bf5ab2efc0bad736c))
 
 ## v1.0.0
