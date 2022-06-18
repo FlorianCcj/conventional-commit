@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "prerelease": "npm run release-note",
+    "postcommit": "git add CHANGELOG.md RELEASE-NOTE.md && git commit --amend --no-edit"
+  }
+}

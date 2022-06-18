@@ -6,6 +6,7 @@
       "always",
       [
         "ci",
+        "chore",
         "docs",
         "feat",
         "fix",

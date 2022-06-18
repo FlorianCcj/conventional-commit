@@ -12,11 +12,19 @@
 
 ## Generate changelog
 
-npm run changelog
+`npm run changelog`
 
 ## Generate release-note
 
-npm run release-note
+`npm run release-note`
+
+## Generate release-note
+
+- `npm run release`: Increment minor, generate changelog and release-note commit new files
+- `npm run release:init`: for first release, avoid increment
+- `npm run release:minor`: like `npm run release`
+- `npm run release:patch`: like `npm run release` but increase patch
+- `npm run release:major`: like `npm run release` but increase major
 
 ## Todos
 
