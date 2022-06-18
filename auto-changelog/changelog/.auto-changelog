@@ -1,8 +1,16 @@
 {
   "output": "CHANGELOG.md",
   "template": "auto-changelog/changelog/changelog-template.hbs",
+  "breakingPattern": "BREAKING CHANGE:",
   "commitLimit": false,
+  "package": true,
+  "sort-commits": "subject",
   "unreleased": true,
+  "includeBranch": [
+    "dev",
+    "master",
+    "*"
+  ],
   "replaceText": {
     "^break\\((.*)\\)": "**$1**",
     "^ci\\((.*)\\)": "**$1**",
@@ -12,12 +20,5 @@
     "^refactor\\((.*)\\)": "**$1**",
     "^style\\((.*)\\)": "**$1**",
     "^test\\((.*)\\)": "**$1**"
-  },
-  "breaking-pattern": "BREAKING CHANGE:",
-  "sort-commits": "subject",
-  "includeBranch": [
-    "dev",
-    "master",
-    "*"
-  ]
+  }
 }
