@@ -29,7 +29,6 @@
 ## Todos
 
 - generate demo branch
-- add script of release (cf Source[0])
 - generating changelog group by scope
 - generating changelog group by scope only if there is more than 5 commits of the same scope
 
