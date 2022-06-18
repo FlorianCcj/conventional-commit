@@ -28,9 +28,9 @@
 
 ## Todos
 
-- generate demo branch
 - generating changelog group by scope
 - generating changelog group by scope only if there is more than 5 commits of the same scope
+- manage breaking change type mark `!` (E.G.: `feat(commitlint)!: remove 'feat' from type in commitling config`)
 
 ## Source
 

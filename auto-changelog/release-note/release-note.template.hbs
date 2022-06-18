@@ -11,6 +11,14 @@
 
 {{/release-note-filter}}
 
+{{! BREAKING CHANGE: patern }}
+{{#breaking-list
+  commits
+  heading='### Breaking changes'
+}}
+- {{breakingChange.message}} ([`{{shorthash}}`]({{href}}))
+{{/breaking-list}}
+
 {{! use fix(smthing): }}
 {{#commit-list
   commits
