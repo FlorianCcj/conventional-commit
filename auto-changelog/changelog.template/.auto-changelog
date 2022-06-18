@@ -1,7 +1,7 @@
 {
   "output": "CHANGELOG.md",
-  "handlebarsSetup": "auto-changelog/changelog/changelog.auto-changelog.setup.js",
-  "template": "auto-changelog/changelog/changelog-template.hbs",
+  "handlebarsSetup": "auto-changelog/changelog.template/changelog.auto-changelog.setup.js",
+  "template": "auto-changelog/changelog.template/changelog-template.hbs",
   "breakingPattern": "BREAKING CHANGE:",
   "commitLimit": false,
   "package": true,
