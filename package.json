@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "changelog": "auto-changelog --package --unreleased --release-summary --config ./auto-changelog/changelog/.auto-changelog",
+    "changelog": "auto-changelog --release-summary --config ./auto-changelog/changelog/.auto-changelog",
     "release": "standard-version --skip.changelog",
     "release:init": "npm run release -- --first-release",
     "release:minor": "standard-version --release-as minor",
     "release:patch": "standard-version --release-as patch",
     "release:major": "standard-version --release-as major",
     "prerelease-note": "npm run changelog",
-    "release-note": "auto-changelog --package --unreleased --config auto-changelog/release-note/.release-note.auto-changelog --handlebars-setup auto-changelog/release-note/release-note.auto-changelog.setup.js",
+    "release-note": "auto-changelog --package --unreleased --config auto-changelog/release-note/.release-note.auto-changelog",
     "changelog-debug": "auto-changelog --template changelog-template.hbs -p --template json --output changelog-data.json",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
