@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "changelog": "auto-changelog --release-summary --config ./auto-changelog/changelog/.auto-changelog",
-    "release": "standard-version --skip.changelog",
+    "release": "standard-version",
     "release:init": "npm run release -- --first-release",
     "release:minor": "standard-version --release-as minor",
     "release:patch": "standard-version --release-as patch",
