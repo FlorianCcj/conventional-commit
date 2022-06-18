@@ -6,7 +6,7 @@
   "commitLimit": false,
   "package": true,
   "sort-commits": "subject",
-  "unreleased": true,
+  "unreleased": false,
   "replaceText": {
     "^fix\\((.*)\\)": "[$1]"
   },
