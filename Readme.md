@@ -5,6 +5,11 @@
 - Launch npm install;
 - Observe what happened when you make a wrong commit;
 
+## Manage commit
+
+- It follow the conventional commit rules: `type(scope): subject`
+- Add `RELEASE NOTE: function title \n\n function description` to add a release note article
+
 ## Generate changelog
 
 npm run changelog

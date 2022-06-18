@@ -27,14 +27,13 @@ module.exports = function(context, options) {
         ...commit,
       };
 
-      const releaseParts =  /^RELEASE NOTE: (?<title>.*)\r?\n(?<description>(?:.|\n)+)/m.exec(item.message);
+      const releaseParts =  /^RELEASE NOTE: (?<title>.*)\r?\n(?<description>(?:(?:.|\n)(?!END RELEASE NOTE))+)/m.exec(item.message);
       if (releaseParts) {
         item.releaseNote = {
           title: releaseParts.groups.title.trim(),
           description: releaseParts.groups.description.trim(),
         }
       }
-
       return item;
     })
     .filter(a => a.releaseNote)
