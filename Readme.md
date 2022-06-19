@@ -55,6 +55,10 @@ To avoid to lose time one generation we manage to script it and generate it from
 - `npm run release:patch`: like `npm run release` but increase patch
 - `npm run release:major`: like `npm run release` but increase major
 
+## Autogenerate your file working
+
+`tilt up`: launch your tilt server, cf Tiltfile to know which command it will automatically launch
+
 ## Todos
 
 - generating changelog group by scope
