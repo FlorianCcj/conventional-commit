@@ -1,7 +1,7 @@
 # Conventional Commit
 
 ## To be released
-[2022-06-18]
+[2022-06-19]
 
 ### Features
 
@@ -20,8 +20,9 @@
 
 ### Documentation changes
 
-* **changelog**: generate changelog and release note with first title more clear ([`beb6cdf`](https://github.com/FlorianCcj/conventional-commit/commit/beb6cdf1c0316e3cb21696b90d80ba7a73970b0b))
+* **changelog**: generate changelog and release note with first title more clear ([`3397398`](https://github.com/FlorianCcj/conventional-commit/commit/3397398cf4ec97b793eb6d1fc284c472c3e5b2ac))
 * **file**: describe projects file functions ([`fa259da`](https://github.com/FlorianCcj/conventional-commit/commit/fa259da8a62fb4a523150e28763cfc756d80d6d4))
+* **readme**: discribe why this project have been done ([`e42ee7f`](https://github.com/FlorianCcj/conventional-commit/commit/e42ee7fb9ea9a6cd9c931038cb1009b92da46ef3))
 
 ### Others
 
