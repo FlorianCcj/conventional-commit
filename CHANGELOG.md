@@ -1,17 +1,18 @@
 # Conventional Commit
 
 ## To be released
-[2022-06-19]
 
 ### Features
 
-* **changelog**: change first title and commit without category title ([`b54754c`](https://github.com/FlorianCcj/conventional-commit/commit/b54754c572f05665a011aef3db87a6add02830b4))
+* **changelog**: change first title and commit without category title ([`0cf73d2`](https://github.com/FlorianCcj/conventional-commit/commit/0cf73d2124e2d318aea582c81f2d809c7c6c1a9c))
 * **release-note**: remove unrelease data to release-note ([`84f05f5`](https://github.com/FlorianCcj/conventional-commit/commit/84f05f54d906153e2b569a2c64808900bb453dbe))
 
 ### Fixes
 
 * **release**: fix changelog and release-note failed ([`fde5337`](https://github.com/FlorianCcj/conventional-commit/commit/fde5337716ba321eebbd2595576b1e7ec6735ef4))
-* **changelog**: get only parenthesis before semoticon ([`16c10ad`](https://github.com/FlorianCcj/conventional-commit/commit/16c10ad142f4797d12aa47eb213e145323d11fc8))
+* **release**: fix changelog and release-note failed ([`0af5a06`](https://github.com/FlorianCcj/conventional-commit/commit/0af5a069cc33f3f9f827e878144148e179262018))
+* **changelog**: get only parenthesis before semoticon ([`58ed085`](https://github.com/FlorianCcj/conventional-commit/commit/58ed0855e1fb8c4f10f5c3da3374bb25c4af937c))
+* **release**: manage first title ([`44fa4e3`](https://github.com/FlorianCcj/conventional-commit/commit/44fa4e3fcc8083094ded7c280fd8df3b184a6c98))
 * **release**: make skip.backlog option global ([`43e64b2`](https://github.com/FlorianCcj/conventional-commit/commit/43e64b2f577e303e1370ad97e21e0ab83802c97a))
 * **changelog**: add description to explain what is the first release ([`85c2e33`](https://github.com/FlorianCcj/conventional-commit/commit/85c2e33b8a864bc64783062a6e9cce9df64d60f8))
 * **version**: fix version number (miss dump) ([`1f07d0b`](https://github.com/FlorianCcj/conventional-commit/commit/1f07d0b3927620c31a91ef1cb01a621b60b19dde))
@@ -20,9 +21,9 @@
 
 ### Documentation changes
 
-* **changelog**: generate changelog and release note with first title more clear ([`3397398`](https://github.com/FlorianCcj/conventional-commit/commit/3397398cf4ec97b793eb6d1fc284c472c3e5b2ac))
+* **changelog**: generate changelog and release note with first title more clear ([`62f70b9`](https://github.com/FlorianCcj/conventional-commit/commit/62f70b9c2f6b33f5d64e78674e1c6f50e53eb2f7))
 * **file**: describe projects file functions ([`fa259da`](https://github.com/FlorianCcj/conventional-commit/commit/fa259da8a62fb4a523150e28763cfc756d80d6d4))
-* **readme**: discribe why this project have been done ([`e42ee7f`](https://github.com/FlorianCcj/conventional-commit/commit/e42ee7fb9ea9a6cd9c931038cb1009b92da46ef3))
+* **readme**: discribe why this project have been done ([`4fd9400`](https://github.com/FlorianCcj/conventional-commit/commit/4fd940006d3b5a3852a48173d969866fa4d511f3))
 
 ### Others
 
