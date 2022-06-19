@@ -1,8 +1,12 @@
 # Release Note
 
 {{#each releases}}
-## {{title}}
+{{#if @first}}
+## To be released
+{{else}}
+## [{{title}}]({{href}})
 [{{isoDate}}]
+{{/if}}
 
 {{#release-note-filter commits}}
 ### {{releaseNote.title}}
