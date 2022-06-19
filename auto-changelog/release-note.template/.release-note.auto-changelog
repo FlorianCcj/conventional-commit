@@ -8,7 +8,7 @@
   "sort-commits": "subject",
   "unreleased": false,
   "replaceText": {
-    "^fix\\((.*): \\)": "[$1]: "
+    "^fix\\((.*)\\): ": "**$1**: "
   },
   "includeBranch": [
     "dev",
